@@ -1,0 +1,46 @@
+CREATE KEYSPACE canals_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+USE canals_db;
+CREATE TABLE canals(canal_id int PRIMARY KEY, flow float, status int);
+CREATE TABLE sensors(sensor_id int PRIMARY KEY, canal_id int, longitude float, latitude float, level int)
+
+INSERT INTO canals (canal_id, flow, status)
+VALUES (101, 0, 0);
+INSERT INTO canals (canal_id, flow, status)
+VALUES (102, 0, 0);
+INSERT INTO canals (canal_id, flow, status)
+VALUES (103, 0, 0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (512, 101,30.619928, 76.332455,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (513, 101, 30.618997, 76.332540,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (514, 101, 30.618182, 76.332658,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (515, 101,30.617135, 76.332827,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (516, 101,30.615550, 76.333081,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (517, 101,30.614590, 76.333199,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (518, 101,30.613877, 76.333250,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (519, 101,30.612742, 76.333419,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (520, 101,30.611647, 76.333638,0);
+
+INSERT INTO sensors (sensor_id, canal_id, longitude, latitude, level)
+VALUES (521, 101,30.610881, 76.333679,0);
+
+
+
+
+

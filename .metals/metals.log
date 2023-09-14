@@ -1,0 +1,66 @@
+2023.09.14 18:08:46 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\WaterWeb-SIH' for client Visual Studio Code 1.82.1.
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\WaterWeb-SIH\.metals\metals (H2 2.1)
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.035s)
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.048s)
+2023.09.14 18:08:47 INFO  time: initialize in 1.24s
+2023.09.14 18:08:52 INFO  Running List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:54 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:55 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:55 INFO  Attempting to connect to the build server...
+2023.09.14 18:08:55 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:56 INFO  Attempting to connect to the build server...
+2023.09.14 18:08:56 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 18:08:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 18:09:00 INFO  no build target found for C:\Projects\WaterWeb-SIH\data-pipeline\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.14 18:09:04 INFO  time: code lens generation in 12s
+2023.09.14 18:09:06 INFO  time: Connected to build server in 10s
+2023.09.14 18:09:06 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.14 18:09:06 INFO  time: Connected to build server in 10s
+2023.09.14 18:09:06 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.14 18:09:07 INFO  time: Imported build in 1.09s
+2023.09.14 18:09:07 INFO  time: Imported build in 1.07s
+2023.09.14 18:09:09 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.17' (since 4.147s)
+2023.09.14 18:09:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:09:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:09:14 INFO  time: compiled project_bd2c96d2de in 5.26s
+2023.09.14 18:09:16 INFO  time: indexed workspace in 8.17s
+2023.09.14 18:09:18 INFO  time: indexed workspace in 10s
+2023.09.14 18:09:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:10:01 INFO  time: compiled project_bd2c96d2de in 2.72s
+2023.09.14 18:10:12 WARN  no build target for: C:\Projects\WaterWeb-SIH\data-pipeline\build.sbt
+2023.09.14 18:10:12 WARN  Could not find semantic tokens for: file:///C:/Projects/WaterWeb-SIH/data-pipeline/build.sbt
+2023.09.14 18:10:12 WARN  Could not find semantic tokens for: file:///C:/Projects/WaterWeb-SIH/data-pipeline/build.sbt
+2023.09.14 18:10:14 WARN  no build target for: C:\Projects\WaterWeb-SIH\data-pipeline\build.sbt
+2023.09.14 18:13:15 INFO  Shutting down server
+2023.09.14 18:13:15 INFO  shutting down Metals
+2023.09.14 18:13:15 INFO  Shut down connection with build server.
+2023.09.14 18:13:15 INFO  Exiting server
+2023.09.14 18:13:15 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
