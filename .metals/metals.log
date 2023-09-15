@@ -95,3 +95,38 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.09.16 00:25:09 INFO  shutting down Metals
 2023.09.16 00:25:09 INFO  Shut down connection with build server.
 2023.09.16 00:25:09 INFO  Exiting server
+2023.09.16 00:25:24 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\WaterWeb-SIH' for client Visual Studio Code 1.82.1.
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\WaterWeb-SIH\.metals\metals (H2 2.1)
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.16 00:25:25 INFO  time: initialize in 0.6s
+2023.09.16 00:25:27 INFO  Attempting to connect to the build server...
+2023.09.16 00:25:27 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.16 00:25:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.16 00:25:27 WARN  No build session currently active to reload.
+2023.09.16 00:25:31 INFO  BSP server: Checking https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:31 INFO  BSP server: Checked https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:31 INFO  BSP server: Downloading https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:32 INFO  BSP server: Downloaded https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:34 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:34 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:34 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:38 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:46 INFO  time: Connected to build server in 19s
+2023.09.16 00:25:46 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.16 00:25:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:25:50 INFO  time: compiled project_bd2c96d2de in 1.62s
+2023.09.16 00:25:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:25:51 INFO  time: compiled project_bd2c96d2de in 1.03s
+2023.09.16 00:25:52 INFO  time: indexed workspace in 5.09s
