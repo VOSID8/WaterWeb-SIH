@@ -2,3 +2,7 @@
 .python-version
 venv
 .env
+jobs.sqlite
+logs/
+*.pyc
+__pycache__

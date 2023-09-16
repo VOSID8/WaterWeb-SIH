@@ -42,6 +42,9 @@ INSTALLED_APPS = [
 
     #third party libraries
     'rest_framework',
+
+    #project apps
+    'map',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +140,6 @@ REST_FRAMEWORK = {
         'rest_framework.rederers.JSONRenderer'
     ]
 }
+
+KAFKA_TOPIC = config('KAFKA_TOPIC')
+KAFKA_BOOTSTRAP_SERVER = config('KAFKA_BOOTSTRAP_SERVER')
