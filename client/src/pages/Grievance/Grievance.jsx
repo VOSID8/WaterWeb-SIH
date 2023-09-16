@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Grievance() {
-    return (
-        <>test</>
-    )
+  return <>test</>;
 }
 
-export default Grievance
+export default Grievance;

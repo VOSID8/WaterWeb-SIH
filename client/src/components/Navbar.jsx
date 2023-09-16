@@ -22,10 +22,10 @@ const Navbar = () => {
           Grievance
         </NavLink>
         <NavLink
-          to="/general"
+          to="/status"
           style={{ textDecoration: "none", color: "#dbdbdb" }}
         >
-          General
+          Status
         </NavLink>
       </div>
     </>

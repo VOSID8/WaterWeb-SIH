@@ -14,6 +14,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Mappage />}></Route>
           <Route exact path="/grievance" element={<Grievance />}></Route>
+          <Route exact path="/dashboard" element={<Dashboard />}></Route>
+          <Route exact path="/status" element={<Grievance />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
