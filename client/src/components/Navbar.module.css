@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0d1e3f;
+  color: #dbdbdb;
+  font-family: Montserrat;
+}
+.navText {
+  font-size: x-large;
+  font-weight: bolder;
+}
