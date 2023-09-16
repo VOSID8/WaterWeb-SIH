@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -9,4 +10,9 @@
 .navText {
   font-size: x-large;
   font-weight: bolder;
+}
+
+.centralelems{
+  width: 80%;
+  height: 90%;
 }

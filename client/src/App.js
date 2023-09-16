@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Grievance from "./pages/Grievance/Grievance";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Navbar from "./components/Navbar";
+import Mappage from "./pages/Mappage/Mappage";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
       <div>
         <Routes>
-          <Route exact path="/" element={<Dashboard />}></Route>
+          <Route exact path="/" element={<Mappage />}></Route>
           <Route exact path="/grievance" element={<Grievance />}></Route>
         </Routes>
       </div>
