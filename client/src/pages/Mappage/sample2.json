@@ -1,7 +1,7 @@
 [
     {
       "id":1,
-      "linecolor":"green",
+      "status":"green",
       "type": "FeatureCollection",
       "features": [
       {
@@ -16,7 +16,7 @@
   },
   {
     "id":2,
-    "linecolor":"green",
+    "status":"green",
     "type": "FeatureCollection",
     "features": [
     {
@@ -31,7 +31,7 @@
   },
   {
     "id":3,
-    "linecolor":"red",
+    "status":"red",
     "type": "FeatureCollection",
     "features": [
     {
@@ -46,7 +46,7 @@
   },
   {
     "id":4,
-    "linecolor":"green",
+    "status":"green",
     "type": "FeatureCollection",
     "features": [
     {
@@ -61,7 +61,7 @@
   },
   {
     "id":5,
-    "linecolor":"red",
+    "status":"red",
     "type": "FeatureCollection",
     "features": [
     {
@@ -76,7 +76,7 @@
   },
   {
     "id":6,
-    "linecolor":"green",
+    "status":"green",
     "type": "FeatureCollection",
     "features": [
     {
@@ -91,7 +91,7 @@
   },
   {
     "id":7,
-    "linecolor":"green",
+    "status":"green",
     "type": "FeatureCollection",
     "features": [
     {
@@ -106,7 +106,7 @@
   },
   {
     "id":8,
-    "linecolor":"green",
+    "status":"green",
     "type": "FeatureCollection",
     "features": [
     {
@@ -121,7 +121,7 @@
   },
   {
     "id":9,
-    "linecolor":"red",
+    "status":"red",
     "type": "FeatureCollection",
     "features": [
     {
