@@ -14,7 +14,13 @@ mapboxgl.accessToken =
 function Mappage() {
     const mapContainer = useRef(null);
     const map = useRef(null);
-    const [linecolor, setLineColor] = useState("red");
+    // const [linecolor, setLineColor] = useState("red");
+
+    // useEffect(()=>{
+    //     setInterval(()=>{
+    //         console.log('hi')
+    //     },[1000])
+    // },[])
 
     useEffect(() => {
         if (!map.current) {
@@ -58,7 +64,7 @@ function Mappage() {
                 });
             });
         }
-    }, [linecolor]);
+    }, []);
 
     const animateDashArray = (index) => {
         const dashArraySequence = [
@@ -100,9 +106,9 @@ function Mappage() {
         animateDashArrayStep(0);
     };
 
-    const changeLineColor = (newColor) => {
-        setLineColor(newColor);
-    };
+    // const changeLineColor = (newColor) => {
+    //     setLineColor(newColor);
+    // };
 
     return (
         <div className={styles.pagewrapper}>
