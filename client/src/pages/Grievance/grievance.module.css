@@ -32,14 +32,19 @@
   flex-direction: column;
 }
 
-input,
-textarea {
+input {
   width: 40rem;
   border-radius: 12px;
   padding: 4px;
   box-shadow: 0 0.8px 5px black;
 }
-
+textarea {
+  width: 40rem;
+  border-radius: 12px;
+  padding: 4px;
+  box-shadow: 0 0.8px 5px black;
+  height: 15vh;
+}
 button {
   border-radius: 12px !important;
   background: #0d1e3f;
