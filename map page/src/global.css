@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-pt-sans: "PT Sans";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-41xl: 60px;
+  --font-size-smi: 13px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-darkslateblue: #2b254a;
+  --color-darkgray: #a6a6a6;
+  --color-cadetblue: #53917e;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-slategray: #55697d;
+  --color-gray: #0d1e3f;
+  --color-lightslategray: #949fb5;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-mini: 15px;
+}

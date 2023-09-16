@@ -1,0 +1,449 @@
+.map-page-child {
+  position: absolute;
+  top: -25px;
+  left: -11px;
+  background-color: var(--color-gray);
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  width: 1533px;
+  height: 114px;
+}
+.bell-icon,
+.vector-icon {
+  position: absolute;
+  top: 23.73%;
+  left: 2.38%;
+  width: 0;
+  height: 0;
+}
+.bell-icon {
+  height: 3.71%;
+  width: 2.18%;
+  top: 2.34%;
+  right: 9.13%;
+  bottom: 93.95%;
+  left: 88.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.water-web {
+  position: absolute;
+  top: 26px;
+  left: 40px;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+}
+.map-page-item {
+  position: absolute;
+  top: 121px;
+  left: 320px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightslategray);
+  box-sizing: border-box;
+  width: 1168px;
+  height: 112px;
+}
+.view-map {
+  text-decoration: none;
+  position: absolute;
+  top: 167px;
+  left: 1294px;
+  font-size: 29px;
+  text-transform: capitalize;
+  font-family: var(--font-montserrat);
+  color: inherit;
+  display: inline-block;
+  width: 314px;
+  cursor: pointer;
+}
+.map-page-inner {
+  position: absolute;
+  top: 266px;
+  left: 1139px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightslategray);
+  box-sizing: border-box;
+  width: 349px;
+  height: 108px;
+}
+.key-points {
+  position: absolute;
+  top: 305px;
+  left: 1219px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 201px;
+  height: 33px;
+}
+.past-card-child,
+.past-card-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.past-card-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightslategray);
+  width: 785.53px;
+  height: 673.63px;
+}
+.past-card-item {
+  top: 673.13px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-lightslategray);
+  width: 786.53px;
+  height: 1px;
+}
+.home,
+.past-card {
+  position: absolute;
+  top: 265px;
+  left: 320px;
+  width: 785.53px;
+  height: 673.63px;
+}
+.home {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 6px;
+  left: 42px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  width: 134px;
+  height: 23px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 79.31%;
+  width: 17.05%;
+  top: 0;
+  right: 82.95%;
+  bottom: 20.69%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-parent {
+  position: absolute;
+  top: 189px;
+  left: 40px;
+  width: 176px;
+  height: 29px;
+}
+.file-a-grievance {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  left: 38px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 159px;
+  height: 23px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 92.86%;
+  width: 13.2%;
+  top: 0;
+  right: 86.8%;
+  bottom: 7.14%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.file-a-grievance-parent,
+.general {
+  position: absolute;
+  top: 235px;
+  left: 42px;
+  width: 197px;
+  height: 28px;
+  color: var(--color-slategray);
+  font-family: var(--font-montserrat);
+}
+.general {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 5px;
+  left: 37px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 149px;
+  height: 23px;
+}
+.vector-icon3 {
+  position: absolute;
+  height: 100%;
+  width: 12.9%;
+  top: 0;
+  right: 87.1%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.general-parent,
+.vector-icon4 {
+  position: absolute;
+  top: 284px;
+  left: 42px;
+  width: 186px;
+  height: 28px;
+}
+.vector-icon4 {
+  height: 86.96%;
+  width: 18.37%;
+  top: 0;
+  right: 81.63%;
+  bottom: 13.04%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dashboard {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 39px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 108px;
+  height: 23px;
+  cursor: pointer;
+}
+.filter,
+.vector-parent {
+  position: absolute;
+  font-family: var(--font-montserrat);
+}
+.vector-parent {
+  height: 2.34%;
+  width: 9.72%;
+  top: 15.17%;
+  right: 87.3%;
+  bottom: 82.48%;
+  left: 2.98%;
+  color: var(--color-slategray);
+}
+.filter {
+  top: 306px;
+  left: 653px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.rectangle-div {
+  position: absolute;
+  top: 410px;
+  left: 1139px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 349px;
+  height: 141px;
+}
+.ph-value-of,
+.positive {
+  position: absolute;
+  display: inline-block;
+}
+.positive {
+  top: 516px;
+  left: 1288px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray);
+  width: 44px;
+  height: 9px;
+}
+.ph-value-of {
+  top: 419px;
+  left: 1240px;
+  width: 145px;
+  height: 13px;
+}
+.map-page-child1 {
+  position: absolute;
+  top: 536px;
+  left: 1209px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue);
+  width: 205px;
+  height: 2px;
+}
+.b,
+.lstar-removebg-preview-13 {
+  position: absolute;
+  top: 470px;
+  left: 1220px;
+  width: 184px;
+  height: 34px;
+}
+.b {
+  top: 442px;
+  left: 1293px;
+  font-size: var(--font-size-41xl);
+  display: inline-block;
+  color: var(--color-darkslateblue);
+  width: 33px;
+  height: 67px;
+}
+.map-page-child2 {
+  position: absolute;
+  top: 578px;
+  left: 1139px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 349px;
+  height: 141px;
+}
+.flow-of-water {
+  position: absolute;
+  top: 589px;
+  left: 1251px;
+  display: inline-block;
+  width: 126px;
+  height: 13px;
+}
+.map-page-child3 {
+  position: absolute;
+  top: 704px;
+  left: 1209px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue);
+  width: 205px;
+  height: 2px;
+}
+.b1 {
+  position: absolute;
+  top: 610px;
+  left: 1293px;
+  font-size: var(--font-size-41xl);
+  display: inline-block;
+  color: var(--color-darkslateblue);
+  width: 33px;
+  height: 67px;
+}
+.map-page-child4 {
+  position: absolute;
+  top: 746px;
+  left: 1139px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 349px;
+  height: 141px;
+}
+.quality-of-water {
+  position: absolute;
+  top: 746px;
+  left: 1240px;
+  display: inline-block;
+  width: 145px;
+  height: 13px;
+}
+.map-page-child5 {
+  position: absolute;
+  top: 872px;
+  left: 1209px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue);
+  width: 205px;
+  height: 2px;
+}
+.great,
+.turbulent {
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  color: var(--color-darkgray);
+  height: 9px;
+}
+.turbulent {
+  position: absolute;
+  top: 684px;
+  left: 1285px;
+  width: 54px;
+}
+.great {
+  top: 853px;
+  left: 1294px;
+  width: 32px;
+}
+.b2,
+.great,
+.logo-1-4 {
+  position: absolute;
+}
+.b2 {
+  top: 778px;
+  left: 1293px;
+  font-size: var(--font-size-41xl);
+  display: inline-block;
+  color: var(--color-darkslateblue);
+  width: 33px;
+  height: 67px;
+}
+.logo-1-4 {
+  top: 128px;
+  left: 359px;
+  width: 214px;
+  height: 98px;
+  object-fit: cover;
+}
+.icon-user {
+  position: absolute;
+  height: 3.16%;
+  width: 2.25%;
+  top: 2.24%;
+  right: 4.76%;
+  bottom: 94.6%;
+  left: 92.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.map-page {
+  position: relative;
+  background-color: #bad7e9;
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-pt-sans);
+}

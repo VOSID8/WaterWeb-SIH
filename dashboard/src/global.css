@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-dimgray: #5e6975;
+  --color-white: #fff;
+  --color-gray: #0d1e3f;
+  --color-slategray: #55697d;
+  --color-steelblue: #558dcf;
+  --color-lightslategray: #949fb5;
+  --color-black: #000;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
