@@ -48,7 +48,7 @@ function Mappage() {
                         source: `line-${index}`,
                         id: `line-dashed-${index}`,
                         paint: {
-                            "line-color": linecolor,
+                            "line-color": `${geojsonEntry.linecolor}`,
                             "line-width": 6,
                             "line-dasharray": [0, 4, 3],
                         },
