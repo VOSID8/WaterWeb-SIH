@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -6,13 +6,20 @@
   background-color: #0d1e3f;
   color: #dbdbdb;
   font-family: Montserrat;
+  padding: 1rem;
 }
 .navText {
   font-size: x-large;
   font-weight: bolder;
 }
 
-.centralelems{
+.centralelems {
   width: 80%;
   height: 90%;
+}
+.logo {
+  width: 7rem;
+  background-color: #bad7e9;
+  padding: 4px;
+  border-radius: 14px;
 }
