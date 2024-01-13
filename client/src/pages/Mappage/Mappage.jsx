@@ -5,6 +5,7 @@ import logo from "../../assets/wwlogo.png";
 import mapboxgl from "mapbox-gl"; // Import mapbox-gl library
 import geojsonsample from "./sample2.json";
 import './mapbottom.css'
+import axios from "axios"
 // export default Home;
 // import sampledata from "./sample.json";
 
@@ -14,6 +15,8 @@ mapboxgl.accessToken =
 function Mappage() {
     const mapContainer = useRef(null);
     const map = useRef(null);
+    const [mapLines,setMaplines]=useState([])
+
     // const [linecolor, setLineColor] = useState("red");
 
     // useEffect(()=>{
@@ -23,6 +26,31 @@ function Mappage() {
     // },[])
 
     useEffect(() => {
+        axios.get('http://192.168.242.154:8000/pipes/all/')
+            .then((response) => {
+            // setMaplines(response.data);
+            console.log(response.data);
+            if(response){
+                
+            }
+            })
+            .catch((error) => {
+            console.error('Error fetching JSON data:', error);
+            }); 
+        setInterval(() => {
+            axios.get('http://192.168.242.154:8000/pipes/updated/')
+            .then((response) => {
+            // setMaplines(response.data);
+            console.log(response.data);
+            if(response){
+                
+            }
+            })
+            .catch((error) => {
+            console.error('Error fetching JSON data:', error);
+            });    
+        }, 5000);
+        
         if (!map.current) {
             map.current = new mapboxgl.Map({
                 container: mapContainer.current,
@@ -54,7 +82,7 @@ function Mappage() {
                         source: `line-${index}`,
                         id: `line-dashed-${index}`,
                         paint: {
-                            "line-color": `${geojsonEntry.status}`,
+                            "line-color": `${(geojsonEntry.status==0)?"green":(geojsonEntry.status==1)?"red":"blue"}`,
                             "line-width": 6,
                             "line-dasharray": [0, 4, 3],
                         },
