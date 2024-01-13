@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css";
+import logo1 from "../assets/wwlogo.png";
 const Navbar = () => {
   return (
     <>
@@ -14,7 +15,8 @@ const Navbar = () => {
         >
           Dashboard
         </NavLink>
-        <p className={classes.navText}>Water Web</p>
+        {/* <p className={classes.navText}>Water Web</p> */}
+        <img src={logo1} alt="web logo" className={classes.logo} />
         <NavLink
           to="/grievance"
           style={{ textDecoration: "none", color: "#dbdbdb" }}
